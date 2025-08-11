@@ -1,12 +1,13 @@
 ﻿int contador = 0;
-while (contador < 10000)
+while (true)
 {
     Console.WriteLine("Loop: " + contador);
 
-    if (contador > 9000)
+    if (contador >= 9000)
     {
         break;
     }
-
+    
     contador++;
 }
+Console.WriteLine("Saiu do while");

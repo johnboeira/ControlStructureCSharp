@@ -1,6 +1,6 @@
-﻿List<string> nomes2 = ["Luis", "Ana"];
+﻿List<string> nomes = ["Luis", "Ana", "Maria", "Murilo", "Ruan"];
 
-foreach (string nome in nomes2)
+foreach (string nome in nomes)
 {
     Console.WriteLine(nome);
 }

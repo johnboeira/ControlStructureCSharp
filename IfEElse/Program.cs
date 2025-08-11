@@ -1,6 +1,6 @@
-﻿int nota = 13;
+﻿int nota = 6;
 
-if (nota >= 9)
-    Console.WriteLine("Muito bem!");
+if (nota >= 7)
+    Console.WriteLine("Passou");
 else
-    Console.WriteLine("Precisa melhorar!");
+    Console.WriteLine("Recuperação");
